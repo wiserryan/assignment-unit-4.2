@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<!--Requirements:
+------unsure what the existing h1 and p tags were----- 
+  - Place the existing `<h1>` and `<p>` inside of a `header` element and add a background-color to that header.
+  - Create a stylesheet.css file and import it into the index.html file.
+  - Add a new div with a class name of "info". Inside that div add an `<h2> My name is YOUR NAME </h2>` Add a background-color and a text color of your choice.
+  - Add an image tag `<img>` and source an image of your main mode of transportation (you car, bus, scooter, bike, feet, etc)
+  - Add an `<h3>` that explains your mode of transportation. Add a background-color and a text color of your choice.
+  
+  The style should look something like this (image shown has a little more CSS - feel free to try some new things!)
+  <img src="./example.png" />
+  -->
+
+<head>
     <meta charset="utf-8">
     <title>Unit 4, Part 2: HTML/CSS Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
     <!-- Create and link a CSS file! -->
   </head>
   <body>
-    <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
+    <header class ="light-blue-header"></header>
+    <h1>Unit 4, Part 2: HTML/CSS Practice Assignment</h1>
+    <div class name = "info">
+      <h2> Ryan Wiser </h2>
+    </div>
+    <center> <img src="bicycle.png" /> </center>
+    <h3> Never runs out of gas </h3>
+    <script src="helloWorld.js"></script>
   </body>
 </html>
+
+  
